@@ -34,11 +34,23 @@ namespace LostV2
             /// to the next appropriate scene
             if (e.KeyCode == Keys.M)       //red button press
             {
-
+                else if (scene == 0) { }
+                else if (scene == 1) { }
+                else if (scene == 2) { }
+                else if (scene == 3) { }
+                else if (scene == 4) { }
+                else if (scene == 5) { }
+                else if (scene == 6) { }
             }
             else if (e.KeyCode == Keys.B)  //blue button press
             {
-
+                else if (scene == 0) { }
+                else if (scene == 1) { }
+                else if (scene == 2) { }
+                else if (scene == 3) { }
+                else if (scene == 4) { }
+                else if (scene == 5) { }
+                else if (scene == 6) { }
             }
 
             /// Display text and game options to screen based on the current scene
@@ -64,7 +76,5 @@ namespace LostV2
                     break;
             }
         }
-
     }
-
 }
