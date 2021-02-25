@@ -118,6 +118,78 @@
   <ItemGroup>
     <None Include="Resources\jungle.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 0,2,3,9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 7,8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 15, 18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene 16,22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrival noise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brakes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\death noise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jailCell.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\louderScratching.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ratSqueak.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scratching.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowBreak.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulance.m4a" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metalClang.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\louderScratchingShort.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horn.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

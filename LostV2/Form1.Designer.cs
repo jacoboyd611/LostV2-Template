@@ -41,14 +41,13 @@
             // outputLabel
             // 
             this.outputLabel.BackColor = System.Drawing.Color.White;
-            this.outputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.outputLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.outputLabel.Font = new System.Drawing.Font("DejaVu Sans Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.Black;
-            this.outputLabel.Location = new System.Drawing.Point(401, 9);
+            this.outputLabel.Location = new System.Drawing.Point(554, 9);
             this.outputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(374, 280);
+            this.outputLabel.Size = new System.Drawing.Size(221, 190);
             this.outputLabel.TabIndex = 2;
             this.outputLabel.Text = "You are riding the subway by yourself, on your way home from work when a rat jump" +
     "s up on the seat next to yours. \r\n\r\nDo you move seats or shoo the rat away?";
@@ -60,10 +59,10 @@
             this.option1Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option1Label.Font = new System.Drawing.Font("DejaVu Sans Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1Label.ForeColor = System.Drawing.Color.Black;
-            this.option1Label.Location = new System.Drawing.Point(444, 303);
+            this.option1Label.Location = new System.Drawing.Point(597, 211);
             this.option1Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option1Label.Name = "option1Label";
-            this.option1Label.Size = new System.Drawing.Size(331, 32);
+            this.option1Label.Size = new System.Drawing.Size(178, 32);
             this.option1Label.TabIndex = 3;
             this.option1Label.Text = "Move seats";
             this.option1Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -75,10 +74,10 @@
             this.option2Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option2Label.Font = new System.Drawing.Font("DejaVu Sans Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option2Label.ForeColor = System.Drawing.Color.Black;
-            this.option2Label.Location = new System.Drawing.Point(444, 347);
+            this.option2Label.Location = new System.Drawing.Point(597, 255);
             this.option2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option2Label.Name = "option2Label";
-            this.option2Label.Size = new System.Drawing.Size(331, 32);
+            this.option2Label.Size = new System.Drawing.Size(178, 32);
             this.option2Label.TabIndex = 5;
             this.option2Label.Text = "Shoo away the rat";
             this.option2Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -90,11 +89,12 @@
             this.option3Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option3Label.Font = new System.Drawing.Font("DejaVu Sans Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option3Label.ForeColor = System.Drawing.Color.Black;
-            this.option3Label.Location = new System.Drawing.Point(444, 390);
+            this.option3Label.Location = new System.Drawing.Point(597, 298);
             this.option3Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option3Label.Name = "option3Label";
-            this.option3Label.Size = new System.Drawing.Size(331, 32);
+            this.option3Label.Size = new System.Drawing.Size(178, 32);
             this.option3Label.TabIndex = 6;
+            this.option3Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.option3Label.Visible = false;
             // 
             // label1
@@ -104,7 +104,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(401, 303);
+            this.label1.Location = new System.Drawing.Point(554, 211);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 32);
@@ -119,7 +119,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(401, 347);
+            this.label2.Location = new System.Drawing.Point(554, 255);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 32);
@@ -134,7 +134,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(401, 390);
+            this.label3.Location = new System.Drawing.Point(554, 298);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 32);
@@ -147,7 +147,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::LostV2.Properties.Resources.scene_0_2_3_9;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(786, 433);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
