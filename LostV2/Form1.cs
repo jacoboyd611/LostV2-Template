@@ -31,9 +31,8 @@ namespace LostV2
         SoundPlayer ratSqueak = new SoundPlayer(Properties.Resources.ratSqueak);
         SoundPlayer arrival = new SoundPlayer(Properties.Resources.arrival_noise);
         SoundPlayer metal = new SoundPlayer(Properties.Resources.metal);
-        SoundPlayer horn = new SoundPlayer(Properties.Resources.horn);
-
-        public Form1()
+        SoundPlayer horn = new SoundPlayer(Properties.Resources.horn)
+       public Form1()
         {
             InitializeComponent();
         }
