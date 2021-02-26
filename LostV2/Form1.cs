@@ -1,5 +1,6 @@
-﻿/// created by : 
-/// date       : 
+﻿/// created by : Jacob Boyd
+/// date       : Feb 6
+/// teacher    : Mr Theodropolis 
 /// description: A basic text adventure game engine
 
 using System;
